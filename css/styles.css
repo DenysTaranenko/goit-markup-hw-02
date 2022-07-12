@@ -1,0 +1,101 @@
+/* Header Classes */
+.header-logo {
+  font-family: ;
+}
+.header-nav {
+}
+.header-list {
+}
+.header-item {
+  list-style-type: none;
+}
+.header-contacts {
+}
+.header-link {
+}
+.header-mail {
+  list-style-type: none;
+}
+.header-mail-link {
+}
+.header-phone {
+  list-style-type: none;
+}
+.header-phone-link {
+}
+/* Index Main Classes */
+.hero {
+}
+.main-subject {
+}
+.order-btn {
+}
+.soft-section {
+}
+.soft-list {
+}
+.soft-item {
+  list-style-type: none;
+}
+.soft-head {
+}
+.soft-text {
+}
+.occupation {
+}
+.occupation-head {
+}
+.occupation-list {
+}
+.occupation-item {
+  list-style-type: none;
+}
+.team-section {
+}
+.team-head {
+}
+.team-list {
+}
+.team-item {
+  list-style-type: none;
+}
+.team-name {
+}
+.team-work {
+}
+/* Portfolio Main Classes */
+.portfolio-nav {
+}
+.portfolio-nav-list {
+}
+.portfolio-nav-item {
+}
+.portfolio-nav-btn {
+}
+.projects-list {
+}
+.projects-item {
+  list-style-type: none;
+}
+.projects-name {
+}
+.projects-discrip {
+}
+/* Footer Classes */
+.footer {
+}
+.footer-logo {
+}
+.footer-adr {
+}
+.footer-list {
+}
+.footer-item {
+  list-style-type: none;
+}
+.map-link {
+}
+.footer-mail {
+}
+.footer-phone {
+}
