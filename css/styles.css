@@ -105,7 +105,6 @@ body {
   height: 30px;
   left: 732px;
   top: 440px;
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 160%;
@@ -133,7 +132,6 @@ body {
   text-transform: uppercase;
 }
 .soft-text {
-  font-style: normal;
   font-size: 14px;
   line-height: 146%;
   letter-spacing: 0.03em;
@@ -185,7 +183,6 @@ body {
   color: #212121;
 }
 .team-work {
-  font-style: normal;
   font-size: 16px;
   line-height: 19px;
   color: #757575;
@@ -233,7 +230,6 @@ body {
   height: 30px;
   left: 239px;
   top: 616px;
-  font-style: normal;
   font-size: 16px;
   line-height: 160%;
   color: #757575;
