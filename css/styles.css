@@ -5,15 +5,11 @@ body {
 /* Header Classes */
 .header-logo {
   text-decoration: none;
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 24px;
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 100%;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -26,8 +22,9 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 100%;
+  line-height: 1.14;
   list-style-type: none;
+  letter-spacing: 0.02em;
 }
 .header-contacts {
 }
@@ -43,7 +40,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 100%;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   list-style-type: none;
 }
@@ -55,7 +52,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 100%;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   list-style-type: none;
 }
@@ -80,20 +77,22 @@ body {
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 116%;
+  line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffff;
 }
 .order-btn {
   border: 0;
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
   background: #2196f3;
   border-radius: 4px;
   cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
 }
 .order-btn:hover,
 .order-btn:focus {
@@ -101,16 +100,6 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .order-btn-text {
-  width: 136px;
-  height: 30px;
-  left: 732px;
-  top: 440px;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 160%;
-  letter-spacing: 0.06em;
-  color: #ffffff;
-  font-family: "Roboto", sans-serif;
 }
 .soft-section {
 }
@@ -120,38 +109,27 @@ body {
   list-style-type: none;
 }
 .soft-head {
-  width: 270px;
-  height: 16px;
-  left: 515px;
-  top: 774px;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 100%;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .soft-text {
   font-size: 14px;
-  line-height: 146%;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
-  width: 270px;
-  height: 75px;
-  left: 515px;
-  top: 800px;
 }
 .occupation {
 }
 .occupation-head {
-  width: 376px;
-  height: 42px;
-  left: 612px;
-  top: 969px;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 100%;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
 }
 .occupation-list {
 }
@@ -161,14 +139,11 @@ body {
 .team-section {
 }
 .team-head {
-  width: 264px;
-  height: 42px;
-  left: 668px;
-  top: 1543px;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 100%;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
 }
 .team-list {
 }
@@ -179,13 +154,15 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 100%;
+  line-height: 1.18;
   color: #212121;
+  letter-spacing: 0.03em;
 }
 .team-work {
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   color: #757575;
+  letter-spacing: 0.03em;
 }
 /* Portfolio Main Classes */
 .portfolio-nav {
@@ -194,7 +171,7 @@ body {
 }
 .portfolio-nav-item {
   list-style-type: none;
-  line-height: 139%;
+  line-height: 1.62;
 }
 .portfolio-nav-btn {
   border: 0;
@@ -202,8 +179,10 @@ body {
   cursor: pointer;
   border-radius: 4px;
   font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
 }
-.portfolio-nav-btn:hover {
+.portfolio-nav-btn:hover,
+.portfolio-nav-btn:focus {
   background: #2196f3;
   color: #ffffff;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -215,41 +194,32 @@ body {
   list-style-type: none;
 }
 .projects-name {
-  width: 322px;
-  height: 36px;
-  left: 239px;
-  top: 576px;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  line-height: 171%;
+  line-height: 2;
   color: #212121;
+  letter-spacing: 0.06em;
 }
 .projects-discrip {
-  width: 322px;
-  height: 30px;
-  left: 239px;
-  top: 616px;
   font-size: 16px;
-  line-height: 160%;
+  line-height: 1.88;
   color: #757575;
+  letter-spacing: 0.03em;
 }
 /* Footer Classes */
 .footer {
   background-color: #2f303a;
 }
 .footer-logo {
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 2157px;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 100%;
+  line-height: 1.19;
   color: #2196f3;
   text-decoration: none;
+  letter-spacing: 0.03em;
 }
 .footer-adr {
 }
@@ -259,15 +229,12 @@ body {
   list-style-type: none;
 }
 .map-link {
-  width: 231px;
-  height: 21px;
-  left: 215px;
-  top: 2208px;
   font-style: normal;
   font-size: 14px;
-  line-height: 146%;
+  line-height: 1.71;
   color: #ffffff;
   text-decoration: none;
+  letter-spacing: 0.03em;
 }
 .map-link:hover,
 .map-link:focus {
@@ -275,14 +242,11 @@ body {
 }
 .footer-mail {
   text-decoration: none;
-  width: 231px;
-  height: 21px;
-  left: 215px;
-  top: 2238px;
   font-style: normal;
   font-size: 14px;
-  line-height: 146%;
+  line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
+  letter-spacing: 0.03em;
 }
 .footer-mail:hover,
 .footer-mail:focus {
@@ -290,29 +254,23 @@ body {
 }
 .footer-phone {
   text-decoration: none;
-  width: 231px;
-  height: 21px;
-  left: 215px;
-  top: 2238px;
   font-style: normal;
   font-size: 14px;
-  line-height: 146%;
+  line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
+  letter-spacing: 0.03em;
 }
 .footer-phone:hover,
 .footer-phone:focus {
   color: #2196f3;
 }
 .footer-logo-help {
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 2157px;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 146%;
+  line-height: 1.71;
   color: #ffffff;
   text-decoration: none;
+  letter-spacing: 0.03em;
 }
