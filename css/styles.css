@@ -1,34 +1,97 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+}
 /* Header Classes */
 .header-logo {
-  font-family: ;
+  text-decoration: none;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .header-nav {
 }
 .header-list {
 }
 .header-item {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
   list-style-type: none;
 }
 .header-contacts {
 }
 .header-link {
+  text-decoration: none;
 }
 .header-mail {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
   list-style-type: none;
 }
 .header-mail-link {
+  text-decoration: none;
 }
 .header-phone {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
   list-style-type: none;
 }
 .header-phone-link {
+  text-decoration: none;
+}
+.header-logo-help {
+  color: #000000;
 }
 /* Index Main Classes */
 .hero {
+  background-color: #2f303a;
 }
 .main-subject {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffff;
 }
 .order-btn {
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.order-btn-text {
+  width: 136px;
+  height: 30px;
+  left: 732px;
+  top: 440px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  color: #ffffff;
 }
 .soft-section {
 }
@@ -38,12 +101,42 @@
   list-style-type: none;
 }
 .soft-head {
+  width: 270px;
+  height: 16px;
+  left: 515px;
+  top: 774px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .soft-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+  width: 270px;
+  height: 75px;
+  left: 515px;
+  top: 800px;
 }
 .occupation {
 }
 .occupation-head {
+  width: 376px;
+  height: 42px;
+  left: 612px;
+  top: 969px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
 .occupation-list {
 }
@@ -98,4 +191,7 @@
 .footer-mail {
 }
 .footer-phone {
+}
+.footer-logo-help {
+  color: #000000;
 }
